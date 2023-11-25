@@ -5,9 +5,7 @@ const loginBtn = document.getElementById("login");
 registerBtn.addEventListener("click", () => {
   container.classList.add("active");
 });
-/Error Uncaught TypeError: can't access property "addEventListener", registerBtn is null/ -
-  // registerBtn
 
-  loginBtn.addEventListener("click", () => {
-    container.classList.remove("active");
-  });
+loginBtn.addEventListener("click", () => {
+  container.classList.remove("active");
+});

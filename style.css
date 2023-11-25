@@ -156,7 +156,7 @@ body {
   z-index: 1000;
 }
 
-.container.active .toogle-container {
+.container.active .toggle-container {
   transform: translateX(-100%);
   border-radius: 0 150px 100px 0;
 }
